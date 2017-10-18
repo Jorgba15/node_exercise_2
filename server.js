@@ -7,9 +7,9 @@ app.get('/:id', function(req, res) {
 
 app.use(express.static("./public"));
 
-app.listen(process.env.port || 8080, function () { // do something with the port
+app.listen(process.env.PORT || 8080, function () { // do something with the port
   console.log('Star wars');
 });
 
-console.log("for noe drit");
+console.log("noe tull");
 // skjønner ingenting
